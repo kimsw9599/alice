@@ -1,0 +1,31 @@
+#*
+*.sublime-*
+*~
+.#*
+.project
+.settings
+**/.idea/
+**/*.iml
+.DS_Store
+vendor/**
+!vendor/manifest
+*.test
+credentials.json
+token.json
+auth_files/**
+
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+bin/
+pkg/
